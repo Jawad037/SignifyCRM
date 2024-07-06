@@ -12,6 +12,7 @@ This repository contains a simple React JS project that serves as a basic templa
  > Installation Instructions:
 
  1. Install dependencies:
+    
     npm install
 
     This command installs all the necessary dependencies required for the project.
