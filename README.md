@@ -2,6 +2,8 @@ Simple React JS Project:
 What is the use of this Repo:
 This repository contains a simple React JS project that serves as a basic template or starting point for building React applications.
 
+
+
  > Prerequisites:
     Before you start, ensure you have the following installed:
 
@@ -13,6 +15,19 @@ This repository contains a simple React JS project that serves as a basic templa
     npm install
 
     This command installs all the necessary dependencies required for the project.
+
+ > Configuration:
+    Before building the project  for production, ensure URLs are configured correctly:
+    1. development URL:
+      In your development environment, typically found in "webpack.config.js" or a similar component file, set your development URL:
+       const urlDev = "https://localhost:3000/";
+       
+    2. Production URL:
+       Before deploying to production, replace the placeholder production URL (urlProd) with your actual production deployment location. This can be done similarly in the same      
+       "webpack.config.js" or a configuration file specific to your setup:
+       const urlProd = "https://aamirhusnain.github.io/signifycrm/"; // CHANGE THIS TO YOUR PRODUCTION DEPLOYMENT LOCATION
+       
+    Ensure this change is made before building for production.
 
   > Usage:
 
@@ -32,3 +47,4 @@ This repository contains a simple React JS project that serves as a basic templa
 
         This command builds the app for production to the build folder.
         It optimizes the build for the best performance, minifies the files, and appends hashes to the filenames.
+        Your app is now ready to be deployed to your production environment using the configured urlProd.
