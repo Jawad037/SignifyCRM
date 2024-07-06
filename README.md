@@ -2,7 +2,7 @@ SignifyCRM Project:
 
 What is the use of this Repo:
 
-This repository contains a simple React JS project that serves as a basic template or starting point for building React applications.
+This repository contains a SignifyCRM Project that serves as a basic template or starting point for building React applications.
 
 
 
