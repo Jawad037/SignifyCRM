@@ -34,6 +34,7 @@ This repository contains a simple React JS project that serves as a basic templa
     Ensure this change is made before building for production.
     
   > Open Dialog Redirect URL:
+
      Before deploying to production, replace the URL. This can be done similarly in the same "src\taskpane\components\SignifyCRM_Pages\LoginPage\SignifySignin.tsx".
 
         //  const redirectURL = "https://localhost:3000/assets/redirectLogin.html"
