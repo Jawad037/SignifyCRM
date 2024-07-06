@@ -1,4 +1,4 @@
-Simple React JS Project:
+SignifyCRM Project:
 
 What is the use of this Repo:
 
