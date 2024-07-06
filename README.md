@@ -17,6 +17,7 @@ This repository contains a simple React JS project that serves as a basic templa
   > Usage:
 
     1. Start the application:
+    
          npm start
 
     This command runs the app in development mode.
@@ -26,6 +27,7 @@ This repository contains a simple React JS project that serves as a basic templa
     You will also see any lint errors in the console.
 
    2. Build the application for production:
+      
         npm run build
 
         This command builds the app for production to the build folder.
