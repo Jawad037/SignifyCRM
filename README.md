@@ -18,6 +18,7 @@ This repository contains a simple React JS project that serves as a basic templa
 
  > Configuration:
     Before building the project  for production, ensure URLs are configured correctly:
+
     1. development URL:
       In your development environment, typically found in "webpack.config.js" or a similar component file, set your development URL:
        const urlDev = "https://localhost:3000/";
