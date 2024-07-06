@@ -32,6 +32,13 @@ This repository contains a simple React JS project that serves as a basic templa
        const urlProd = "https://aamirhusnain.github.io/signifycrm/"; // CHANGE THIS TO YOUR PRODUCTION DEPLOYMENT LOCATION
        
     Ensure this change is made before building for production.
+    
+  > Open Dialog Redirect URL:
+     Before deploying to production, replace the URL. This can be done similarly in the same "src\taskpane\components\SignifyCRM_Pages\LoginPage\SignifySignin.tsx".
+
+        //  const redirectURL = "https://localhost:3000/assets/redirectLogin.html"
+        const redirectURL = "https://aamirhusnain.github.io/signifycrm/assets/redirectLogin.html" // CHANGE THIS TO YOUR PRODUCTION DEPLOYMENT
+
 
   > Usage:
 
